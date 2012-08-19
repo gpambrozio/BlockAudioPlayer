@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9176A915E06F7400845AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9176A815E06F7400845AC6 /* UIKit.framework */; };
+		EC9176AB15E06F7400845AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9176AA15E06F7400845AC6 /* Foundation.framework */; };
+		EC9176AD15E06F7400845AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9176AC15E06F7400845AC6 /* CoreGraphics.framework */; };
+		EC9176B315E06F7400845AC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9176B115E06F7400845AC6 /* InfoPlist.strings */; };
+		EC9176B515E06F7400845AC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176B415E06F7400845AC6 /* main.m */; };
+		EC9176B915E06F7400845AC6 /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176B815E06F7400845AC6 /* GAAppDelegate.m */; };
+		EC9176BC15E06F7500845AC6 /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176BB15E06F7400845AC6 /* GAViewController.m */; };
+		EC9176BF15E06F7500845AC6 /* GAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9176BD15E06F7500845AC6 /* GAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC9176A415E06F7400845AC6 /* BlockAudioPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockAudioPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9176A815E06F7400845AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC9176AA15E06F7400845AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC9176AC15E06F7400845AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC9176B015E06F7400845AC6 /* BlockAudioPlayerTest-Info.plist */ = {isa = PBXFileReference; path = "BlockAudioPlayerTest-Info.plist"; sourceTree = "<group>"; };
+		EC9176B215E06F7400845AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC9176B415E06F7400845AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9176B615E06F7400845AC6 /* BlockAudioPlayerTest-Prefix.pch */ = {isa = PBXFileReference; path = "BlockAudioPlayerTest-Prefix.pch"; sourceTree = "<group>"; };
+		EC9176B715E06F7400845AC6 /* GAAppDelegate.h */ = {isa = PBXFileReference; path = GAAppDelegate.h; sourceTree = "<group>"; };
+		EC9176B815E06F7400845AC6 /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
+		EC9176BA15E06F7400845AC6 /* GAViewController.h */ = {isa = PBXFileReference; path = GAViewController.h; sourceTree = "<group>"; };
+		EC9176BB15E06F7400845AC6 /* GAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAViewController.m; sourceTree = "<group>"; };
+		EC9176BE15E06F7500845AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GAViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9176A115E06F7400845AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9176A915E06F7400845AC6 /* UIKit.framework in Frameworks */,
+				EC9176AB15E06F7400845AC6 /* Foundation.framework in Frameworks */,
+				EC9176AD15E06F7400845AC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC91769915E06F7400845AC6 = {
+			isa = PBXGroup;
+			children = (
+				EC9176AE15E06F7400845AC6 /* BlockAudioPlayerTest */,
+				EC9176A715E06F7400845AC6 /* Frameworks */,
+				EC9176A515E06F7400845AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9176A515E06F7400845AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9176A415E06F7400845AC6 /* BlockAudioPlayerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9176A715E06F7400845AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9176A815E06F7400845AC6 /* UIKit.framework */,
+				EC9176AA15E06F7400845AC6 /* Foundation.framework */,
+				EC9176AC15E06F7400845AC6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9176AE15E06F7400845AC6 /* BlockAudioPlayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				EC9176B715E06F7400845AC6 /* GAAppDelegate.h */,
+				EC9176B815E06F7400845AC6 /* GAAppDelegate.m */,
+				EC9176BA15E06F7400845AC6 /* GAViewController.h */,
+				EC9176BB15E06F7400845AC6 /* GAViewController.m */,
+				EC9176BD15E06F7500845AC6 /* GAViewController.xib */,
+				EC9176AF15E06F7400845AC6 /* Supporting Files */,
+			);
+			path = BlockAudioPlayerTest;
+			sourceTree = "<group>";
+		};
+		EC9176AF15E06F7400845AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9176B015E06F7400845AC6 /* BlockAudioPlayerTest-Info.plist */,
+				EC9176B115E06F7400845AC6 /* InfoPlist.strings */,
+				EC9176B415E06F7400845AC6 /* main.m */,
+				EC9176B615E06F7400845AC6 /* BlockAudioPlayerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9176A315E06F7400845AC6 /* BlockAudioPlayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9176C215E06F7500845AC6 /* Build configuration list for PBXNativeTarget "BlockAudioPlayerTest" */;
+			buildPhases = (
+				EC9176A015E06F7400845AC6 /* Sources */,
+				EC9176A115E06F7400845AC6 /* Frameworks */,
+				EC9176A215E06F7400845AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockAudioPlayerTest;
+			productName = BlockAudioPlayerTest;
+			productReference = EC9176A415E06F7400845AC6 /* BlockAudioPlayerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC91769B15E06F7400845AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GA;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Pocket Gems";
+			};
+			buildConfigurationList = EC91769E15E06F7400845AC6 /* Build configuration list for PBXProject "BlockAudioPlayerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC91769915E06F7400845AC6;
+			productRefGroup = EC9176A515E06F7400845AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9176A315E06F7400845AC6 /* BlockAudioPlayerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9176A215E06F7400845AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9176B315E06F7400845AC6 /* InfoPlist.strings in Resources */,
+				EC9176BF15E06F7500845AC6 /* GAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9176A015E06F7400845AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9176B515E06F7400845AC6 /* main.m in Sources */,
+				EC9176B915E06F7400845AC6 /* GAAppDelegate.m in Sources */,
+				EC9176BC15E06F7500845AC6 /* GAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC9176B115E06F7400845AC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9176B215E06F7400845AC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC9176BD15E06F7500845AC6 /* GAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9176BE15E06F7500845AC6 /* en */,
+			);
+			name = GAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9176C015E06F7500845AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC9176C115E06F7500845AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9176C315E06F7500845AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockAudioPlayerTest/BlockAudioPlayerTest-Prefix.pch";
+				INFOPLIST_FILE = "BlockAudioPlayerTest/BlockAudioPlayerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC9176C415E06F7500845AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockAudioPlayerTest/BlockAudioPlayerTest-Prefix.pch";
+				INFOPLIST_FILE = "BlockAudioPlayerTest/BlockAudioPlayerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC91769E15E06F7400845AC6 /* Build configuration list for PBXProject "BlockAudioPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9176C015E06F7500845AC6 /* Debug */,
+				EC9176C115E06F7500845AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9176C215E06F7500845AC6 /* Build configuration list for PBXNativeTarget "BlockAudioPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9176C315E06F7500845AC6 /* Debug */,
+				EC9176C415E06F7500845AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC91769B15E06F7400845AC6 /* Project object */;
+}
