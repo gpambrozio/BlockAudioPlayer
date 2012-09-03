@@ -15,6 +15,7 @@
 		EC9176B915E06F7400845AC6 /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176B815E06F7400845AC6 /* GAAppDelegate.m */; };
 		EC9176BC15E06F7500845AC6 /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176BB15E06F7400845AC6 /* GAViewController.m */; };
 		EC9176BF15E06F7500845AC6 /* GAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9176BD15E06F7500845AC6 /* GAViewController.xib */; };
+		EC9176C715E06F8800845AC6 /* BlockAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9176C615E06F8800845AC6 /* BlockAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,18 @@
 		EC9176A815E06F7400845AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC9176AA15E06F7400845AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC9176AC15E06F7400845AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EC9176B015E06F7400845AC6 /* BlockAudioPlayerTest-Info.plist */ = {isa = PBXFileReference; path = "BlockAudioPlayerTest-Info.plist"; sourceTree = "<group>"; };
+		EC9176B015E06F7400845AC6 /* BlockAudioPlayerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockAudioPlayerTest-Info.plist"; sourceTree = "<group>"; };
 		EC9176B215E06F7400845AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC9176B415E06F7400845AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC9176B615E06F7400845AC6 /* BlockAudioPlayerTest-Prefix.pch */ = {isa = PBXFileReference; path = "BlockAudioPlayerTest-Prefix.pch"; sourceTree = "<group>"; };
-		EC9176B715E06F7400845AC6 /* GAAppDelegate.h */ = {isa = PBXFileReference; path = GAAppDelegate.h; sourceTree = "<group>"; };
+		EC9176B615E06F7400845AC6 /* BlockAudioPlayerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockAudioPlayerTest-Prefix.pch"; sourceTree = "<group>"; };
+		EC9176B715E06F7400845AC6 /* GAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAAppDelegate.h; sourceTree = "<group>"; };
 		EC9176B815E06F7400845AC6 /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
-		EC9176BA15E06F7400845AC6 /* GAViewController.h */ = {isa = PBXFileReference; path = GAViewController.h; sourceTree = "<group>"; };
+		EC9176BA15E06F7400845AC6 /* GAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAViewController.h; sourceTree = "<group>"; };
 		EC9176BB15E06F7400845AC6 /* GAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAViewController.m; sourceTree = "<group>"; };
 		EC9176BE15E06F7500845AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GAViewController.xib; sourceTree = "<group>"; };
+		EC9176C515E06F8800845AC6 /* BlockAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAudioPlayer.h; sourceTree = "<group>"; };
+		EC9176C615E06F8800845AC6 /* BlockAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAudioPlayer.m; sourceTree = "<group>"; };
+		ECB7347D15F50DE200A97F6E /* ARCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				EC9176BB15E06F7400845AC6 /* GAViewController.m */,
 				EC9176BD15E06F7500845AC6 /* GAViewController.xib */,
 				EC9176AF15E06F7400845AC6 /* Supporting Files */,
+				EC9176C515E06F8800845AC6 /* BlockAudioPlayer.h */,
+				EC9176C615E06F8800845AC6 /* BlockAudioPlayer.m */,
 			);
 			path = BlockAudioPlayerTest;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 				EC9176B015E06F7400845AC6 /* BlockAudioPlayerTest-Info.plist */,
 				EC9176B115E06F7400845AC6 /* InfoPlist.strings */,
 				EC9176B415E06F7400845AC6 /* main.m */,
+				ECB7347D15F50DE200A97F6E /* ARCHelper.h */,
 				EC9176B615E06F7400845AC6 /* BlockAudioPlayerTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -165,6 +172,7 @@
 				EC9176B515E06F7400845AC6 /* main.m in Sources */,
 				EC9176B915E06F7400845AC6 /* GAAppDelegate.m in Sources */,
 				EC9176BC15E06F7500845AC6 /* GAViewController.m in Sources */,
+				EC9176C715E06F8800845AC6 /* BlockAudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
